@@ -1,0 +1,40 @@
+html, body, #map {
+	box-sizing: border-box;
+	font-size: 100%;
+  }
+  
+  *, *::before, *::after {
+	box-sizing: inherit;
+  }
+  
+  body {
+	margin: 0;
+	padding: 0;
+	background-color: #000000;
+	color: #ffffff;
+  }
+  
+  h1 {
+	
+	font-family: 'Comfortaa', cursive;
+	font-family: 'Lora', serif;
+	text-align: center;
+	font-size: 2rem;
+	padding: 0 3rem;
+  }
+  
+  #map {
+	height: 94vh;
+  }
+  
+  .gm-style-iw-d {
+	color: #000000;
+  }
+  
+  input[type="text"] {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	font-size: medium;
+	}
+  input[id="searchTextField"] {
+    height: 3vh;
+	}
